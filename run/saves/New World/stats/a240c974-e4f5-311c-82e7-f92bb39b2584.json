@@ -1,0 +1,30 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "pharma:alprazolam": 4
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1665,
+      "minecraft:walk_one_cm": 1281,
+      "minecraft:total_world_time": 2061,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 1665,
+      "minecraft:time_since_death": 1665,
+      "minecraft:drop": 3
+    },
+    "minecraft:used": {
+      "pharma:phenazepam": 1,
+      "pharma:tofisopam": 1,
+      "pharma:tropicamide": 1,
+      "pharma:promedol": 1,
+      "pharma:clonazepam": 1,
+      "pharma:diazepam": 1,
+      "pharma:palexia": 3,
+      "pharma:tramadol": 1
+    },
+    "minecraft:dropped": {
+      "pharma:alprazolam": 3
+    }
+  },
+  "DataVersion": 4671
+}

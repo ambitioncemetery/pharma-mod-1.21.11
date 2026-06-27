@@ -1,0 +1,23 @@
+{
+    "schemaVersion": 1,
+    "id": "pharma",
+    "version": "${version}",
+    "name": "Pharma",
+    "description": "Pharmaceutical food items for Minecraft",
+    "authors": ["sorwelt"],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/pharma/icon.png",
+    "environment": "*",
+    "entrypoints": {
+      "main": [
+        "net.sorwelt.pharma.PharmaMod"
+      ]
+    },
+    "depends": {
+      "fabricloader": ">=0.16.10",
+      "minecraft": "~1.21.11",
+      "java": ">=21",
+      "fabric-api": "*"
+    }
+  }
