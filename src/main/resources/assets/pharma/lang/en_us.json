@@ -1,0 +1,38 @@
+{
+    "itemgroup.pharma.anxiolytics": "Tranquilizers",
+    "itemgroup.pharma.antipsychotics": "Neuroleptics",
+    "itemgroup.pharma.analgetics": "Opioids",
+    "itemgroup.pharma.antidepressants": "Antidepressants",
+    "itemgroup.pharma.antihistamines": "Antihistamine",
+    "itemgroup.pharma.antiepileptics": "Antiepileptics",
+    "itemgroup.pharma.other": "Other",
+
+    "item.pharma.alprazolam": "Alprazolam",
+    "item.pharma.phenazepam": "Phenazepam",
+    "item.pharma.clonazepam": "Clonazepam",
+    "item.pharma.diazepam": "Diazepam",
+    "item.pharma.tofisopam": "Tofisopam",
+    
+    "item.pharma.haloperidol": "Haloperidol",
+    "item.pharma.quetiapine": "Quetiapine",
+    "item.pharma.risperidone": "Risperidone",
+    "item.pharma.chlorpromazine": "Chlorpromazine",
+
+    "item.pharma.tramadol": "Tramadol",
+    "item.pharma.promedol": "Promedol",
+    "item.pharma.palexia": "Palexia",
+    "item.pharma.tropicamide": "Tropicamide",
+
+    "item.pharma.amitriptyline": "Amitriptyline",
+    "item.pharma.mirtazapine": "Mirtazapine",
+    "item.pharma.zoloft": "Zoloft",
+    "item.pharma.fluoxetine": "Fluoxetine",
+
+    "item.pharma.dramina": "Dramina",
+    "item.pharma.dimedrol": "Dimedrol",
+    "item.pharma.atarax": "Atarax",
+
+    "item.pharma.gabapentin": "Gabapentin",
+
+    "item.pharma.recipe": "Recipe"
+}

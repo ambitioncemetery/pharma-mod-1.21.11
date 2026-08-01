@@ -1,21 +1,22 @@
 {
-    "itemGroup.pharma.anxiolytics": "Транквилизаторы",
-    "itemGroup.pharma.antipsychotics": "Антипсихотики",
-    "itemGroup.pharma.analgesics": "Анальгетики",
-    "itemGroup.pharma.antidepressants": "Антидепрессанты",
-    "itemGroup.pharma.antihistamines": "Антигистамины",
-    "itemGroup.pharma.antiepileptics": "Противоэпилептики",
+    "itemgroup.pharma.anxiolytics": "Транквилизаторы",
+    "itemgroup.pharma.antipsychotics": "Нейролептики",
+    "itemgroup.pharma.analgetics": "Опиоиды",
+    "itemgroup.pharma.antidepressants": "Антидепрессанты",
+    "itemgroup.pharma.antihistamines": "Антигистаминные",
+    "itemgroup.pharma.antiepileptics": "Антиэпелептические",
+    "itemgroup.pharma.other": "Прочее",
 
     "item.pharma.alprazolam": "Алпразолам",
     "item.pharma.phenazepam": "Феназепам",
     "item.pharma.clonazepam": "Клоназепам",
     "item.pharma.diazepam": "Диазепам",
-    "item.pharma.tofisopam": "Тофизопом",
+    "item.pharma.tofisopam": "Тофизопам",
     
     "item.pharma.haloperidol": "Галоперидол",
     "item.pharma.quetiapine": "Кветиапин",
     "item.pharma.risperidone": "Рисперидон",
-    "item.pharma.clorpromazine": "Хлорпромазин",
+    "item.pharma.chlorpromazine": "Хлорпромазин",
 
     "item.pharma.tramadol": "Трамадол",
     "item.pharma.promedol": "Промедол",
@@ -31,5 +32,6 @@
     "item.pharma.dimedrol": "Димедрол",
     "item.pharma.atarax": "Атаракс",
 
-    "item.pharma.gabapentin": "Габапентин"
+    "item.pharma.gabapentin": "Габапентин",
+    "item.pharma.recipe": "Рецепт"
 }

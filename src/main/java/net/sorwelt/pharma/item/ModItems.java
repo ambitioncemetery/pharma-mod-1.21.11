@@ -21,7 +21,7 @@ public class ModItems {
     public static final Item HALOPERIDOL = registerItem("haloperidol", ModFoodComponents.HALOPERIDOL);
     public static final Item QUETIAPINE = registerItem("quetiapine", ModFoodComponents.QUETIAPINE);
     public static final Item RISPERIDONE = registerItem("risperidone", ModFoodComponents.RISPERIDONE);
-    public static final Item CLORPROMAZINE = registerItem("clorpromazine", ModFoodComponents.CLORPROMAZINE);
+    public static final Item CHLORPROMAZINE = registerItem("chlorpromazine", ModFoodComponents.CHLORPROMAZINE);
 
     // analgesics
     public static final Item TRAMADOL = registerItem("tramadol", ModFoodComponents.TRAMADOL);
@@ -42,6 +42,10 @@ public class ModItems {
 
     // antiepileptics
     public static final Item GABAPENTIN = registerItem("gabapentin", ModFoodComponents.GABAPENTIN);
+
+    // recipe
+    public static final Item RECIPE = Registry.register(Registries.ITEM, Identifier.of(PharmaMod.MOD_ID, "recipe"), new RecipeItem(new Item.Settings()
+        .registryKey(RegistryKey.of(Registries.ITEM.getKey(), Identifier.of(PharmaMod.MOD_ID, "recipe")))));
 
     private static Item registerItem(String name, PharmaFood pharmaFood) {
         Identifier id = Identifier.of(PharmaMod.MOD_ID, name);

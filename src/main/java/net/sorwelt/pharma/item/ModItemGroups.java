@@ -36,7 +36,7 @@ public class ModItemGroups {
                         entries.add(ModItems.HALOPERIDOL);
                         entries.add(ModItems.QUETIAPINE);
                         entries.add(ModItems.RISPERIDONE);
-                        entries.add(ModItems.CLORPROMAZINE);
+                        entries.add(ModItems.CHLORPROMAZINE);
                     })
                     .build()
     );
@@ -93,6 +93,18 @@ public static final ItemGroup ANTIDEPRESSANTS_GROUP = Registry.register(
                     .icon(() -> new ItemStack(ModItems.GABAPENTIN))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.GABAPENTIN);
+                    })
+                    .build()
+    );
+
+    public static final ItemGroup OTHER_GROUP = Registry.register(
+        Registries.ITEM_GROUP,
+        Identifier.of(PharmaMod.MOD_ID, "other"),
+        FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemgroup.pharma.other"))
+                    .icon(() -> new ItemStack(ModItems.RECIPE))
+                    .entries((displayContext, entries) -> {
+                        entries.add(ModItems.RECIPE);
                     })
                     .build()
     );
